@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.footer-container{
+    width: 100%;
+    min-height:100px;
+    background-color: rgb(241, 243, 244);
+}
+.footer-content{
+
+}
+.footer-contact{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-contact span{
+    padding: 0 20px;
+}

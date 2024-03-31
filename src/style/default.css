@@ -11,55 +11,71 @@ hr {
 
 
 }
-
-.flex {
-    margin: 0 auto;
-    /* width: 1200px; */
-    display: flex;
-    /* flex-direction: column;  */
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.flex-item {
-    margin: 10px 20px;
-    width: min-content;
-    height: min-content;
-    /* background-color: rgb(236, 236, 236); */
-    border-radius: 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
-}
-
-.nav-bar {
+.navigation-bar{
     width: 100%;
-    height: 100px;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 0 10px #ccc;
+    height: 80px;
     position: fixed;
-    z-index: 10;
+    top: 0;
+    line-height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: rgb(233, 241, 251);
 }
-
-.bg-blue-light-500{
-    background-color: rgb(8, 109, 215);
+.nav-flex-container{
+    display: flex;
 }
+.nav-title{
+    line-height: 80px;
+    padding-left: 60px;
+    font-size: 28px;
+    font-weight: 800;
+    width: 100px;
+}
+.content-spacer{
+    height: 80px;
+}
+.content-container{
 
-.nav-logo{
-    width: 64px;
-    height: 64px;
-    background-color:rgb(9, 128, 253);
-    margin-left: 20px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.card-box{
+    background-color: rgb(233, 235, 239);
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: .28s cubic-bezier(.4,0,.2,1);
+}
+.card-box:hover{
+    border: 1px solid #fff;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 
-    color: white;
-    line-height: 64px;
-    text-align: center;
+}
+.card-title{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px;
+    border-bottom:  1px solid gray;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+.card-content{
+    padding: 10px 20px;
+
+}
+.search-bar-container{
+    width: 400px;
+    height: 80px;
+    background-color: cornflowerblue;
 }
 .server-info{
 
