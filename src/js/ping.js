@@ -4,7 +4,7 @@
 
 // };
 document.addEventListener('DOMContentLoaded', function() {
-    ping("https://files.suchenawa.com:5244/", "ping-result-file", "status-file");
+    ping("https://files.suchenawa.com/", "ping-result-file", "status-file");
     // ping("https://another-example.com", "ping-result-2");
 });
 function ping(url, resultElementId, serverStatus) {

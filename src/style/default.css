@@ -10,12 +10,22 @@ body {
 hr {
     color: rgba(236, 236, 236, 0.2);
     border: 1px solid rgb(236, 236, 236);
+}
+a{
+    text-decoration: none;
+    color: black;
 
+}
 
+.select-a{
+    border: 2px solid transparent;
+}
+.select-a:hover{
+    border-bottom: 2px solid blue;
 }
 .navigation-bar{
     width: 100%;
-    height: 80px;
+    height: 50px;
     position: fixed;
     top: 0;
     line-height: 80px;
@@ -26,17 +36,23 @@ hr {
     display: flex;
 }
 .nav-title{
-    line-height: 80px;
+    line-height: 50px;
     padding-left: 60px;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 800;
     width: fit-content;
 }
 .content-spacer{
     height: 80px;
 }
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .content-container{
-
+    min-height: 600px;
+    flex: 1;
 }
 .card-container{
     display: flex;
