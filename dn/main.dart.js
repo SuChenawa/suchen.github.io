@@ -7106,7 +7106,7 @@ NG(){var s=0,r=A.V(t.a),q,p
 var $async$NG=A.W(function(a,b){if(a===1)return A.S(b,r)
 while(true)switch(s){case 0:p=B.bW
 s=3
-return A.a_($.NX().Yo("settings/v3.json"),$async$NG)
+return A.a_($.NX().Yo("assets/settings/v3.json"),$async$NG)
 case 3:q=p.cX(0,b)
 s=1
 break

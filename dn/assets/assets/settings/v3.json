@@ -1,0 +1,56 @@
+{
+    "ntype": [
+        "猫咪牛牛",
+        "狗牛牛",
+        "狼根",
+        "牛根",
+        "马阳具"
+    ],
+    "ntype-spec": [
+        "龙根",
+        "触手"
+    ],
+    "ntype-spec-d": [
+        "胶液牛牛"
+    ],
+    "ntype-mec": [
+        "机械牛子"
+    ],
+    "ntype-other": [
+        "龙腔"
+    ],
+    "nstate-ultra": [
+        "大小令人震惊的"
+    ],
+    "nstate-long": [
+        "巨大的",
+        "粗壮的"
+    ],
+    "nstate-medium": [
+        "比较大的"
+    ],
+    "nstate-normal": [
+        "正常规格的",
+        "穿着双丁的"
+    ],
+    "nstate-spec": [
+        "缩进去的",
+        "穿戴着假阳具的"
+    ],
+    "nstate-spec-d": [
+        "缩进去的",
+        "穿戴着假阳具的"
+    ],
+    "syscomment-ultra": [
+        "用户未进行评价，系统默认好评"
+    ],
+    "syscomment-long": [
+        "用户未进行评价，系统默认好评"
+    ],
+    "syscomment-medium": [
+        "用户未进行评价，系统默认好评"
+    ],
+    "syscomment-normal": [
+        "用户未进行评价，系统默认好评"
+    ]
+}
