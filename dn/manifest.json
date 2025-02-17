@@ -1,6 +1,6 @@
 {
-    "name": "dailynews",
-    "short_name": "dailynews",
+    "name": "blueescreengen",
+    "short_name": "blueescreengen",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
